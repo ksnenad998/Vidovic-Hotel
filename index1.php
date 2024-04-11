@@ -25,14 +25,11 @@
   <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <!-- Google Fonts-->
-  <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700" rel="stylesheet"
-    type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700" rel="stylesheet" type="text/css">
   <!-- OWLSLIDER-->
-  <link rel="stylesheet" href="./assets/js/libs/owl.carousel.2.0.0-beta.2.4/css/owl.carousel.css" type="text/css"
-    media="all" data-module="owlslider">
-  <link rel="stylesheet" href="./assets/js/libs/owl.carousel.2.0.0-beta.2.4/css/owl.theme.default.css" type="text/css"
-    media="all" data-module="owlslider">
+  <link rel="stylesheet" href="./assets/js/libs/owl.carousel.2.0.0-beta.2.4/css/owl.carousel.css" type="text/css" media="all" data-module="owlslider">
+  <link rel="stylesheet" href="./assets/js/libs/owl.carousel.2.0.0-beta.2.4/css/owl.theme.default.css" type="text/css" media="all" data-module="owlslider">
   <!-- ANIMATE.CSS LIBRARY-->
   <link rel="stylesheet" href="./assets/css/libs/animate.min.css" type="text/css" media="all">
   <!-- ICON WEB FONTS-->
@@ -49,17 +46,16 @@
       <!-- =========================== HEADER ==========================-->
       <div class="mainbar">
         <div class="container-fluid">
-          <div class="logo"><a href="index.html" class="brand"><img src="./assets/images/logo/Hotel Vidovic.png"
-                alt="logo"></a></div>
+          <div class="logo"><a href="index.html" class="brand"><img src="./assets/images/logo/Hotel Vidovic.png" alt="logo"></a></div>
           <div class="nav_and_tools nav_centered uppercase transparent">
             <nav class="primary_nav">
               <ul class="nav">
                 <li><a href="index.html">Početna</a></li>
                 <li><a href="index-activities.html">O hotelu</a></li>
                 <li><a href="room-list.html">Smještaj</a></li>
-                <li><a href="index-restaurant.html">Restoran i Kafe</a></li>
+                <li><a href="index-restaurant.html">restorani</a></li>
                 <li><a href="konferencije.html">konferencije</a></li>
-                <li><a href="location.html">Preporuka</a></li>
+                <li><a href="location.html">aktivnosti</a></li>
                 <li><a href="gallery.html">Galerija</a></li>
                 <li><a href="contact.html">Kontakt</a></li>
                 <!-- <li><a href="booking.html">Rezervacije</a></li> -->
@@ -165,8 +161,7 @@
                 klijentima. Naš posao je da klijentima uvijek olakšamo poslovanje s nama i nastojimo ne samo da
                 zadovoljimo njihove potrebe već i da nadmašimo njihova očekivanja.</p>
               <!-- <p>Yours truly,<small>Richard.</small></p> -->
-              <div class="footer"><img src="assets/images/avatar-1.jpg" width="70" alt="Image"
-                  class="img-circle"><span>DJORDJE DJORDJEVIĆ<small>Direktor hotel</small></span></div>
+              <div class="footer"><img src="assets/images/avatar-1.jpg" width="70" alt="Image" class="img-circle"><span>DJORDJE DJORDJEVIĆ<small>Direktor hotel</small></span></div>
             </div>
           </div>
           <div class="col-md-4 negative_margin_bottom small_screen_margin_top">
@@ -210,8 +205,7 @@
             <div class="col-md-12 text-center margin_top">
               <div class="text_block">
                 <h1>Sve na jednom mjestu</h1><img src="assets/images/decoration-1.png" width="110" alt="Image">
-                <p class="lead">Rezervišite sada najbolju ponudu i obezbedite odmor na vreme.</p><a
-                  href="room-list.html" class="btn btn-black">Pogledaj naše sobe</a>
+                <p class="lead">Rezervišite sada najbolju ponudu i obezbedite odmor na vreme.</p><a href="room-list.html" class="btn btn-black">Pogledaj naše sobe</a>
               </div>
             </div>
           </div>
@@ -224,13 +218,8 @@
               <div class="row">
                 <div class="col-md-6 room_bg_dark full_width_room card-height">
                   <div class="text_block">
-                    <h2> <a href="room-single.html">RECEPCIJA </a><small><a href="#">Radno vreme</a></small><small><a
-                          href="#">00:00 - 24:00</a></small></h2>
-                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom"
-                        title="This room has WiFI" class="icon icon-Signal"></i><i data-toggle="tooltip"
-                        data-placement="bottom" title="This room has Cable TV" class="icon icon-TV"></i><i
-                        data-toggle="tooltip" data-placement="bottom" title="This room has Cafe Bar"
-                        class="icon icon-Espresso"></i></div>
+                    <h2> <a href="room-single.html">RECEPCIJA </a><small><a href="#">Radno vreme</a></small><small><a href="#">00:00 - 24:00</a></small></h2>
+                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom" title="This room has WiFI" class="icon icon-Signal"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has Cable TV" class="icon icon-TV"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has Cafe Bar" class="icon icon-Espresso"></i></div>
                     <p class="text-justify">Za sva vaša pitanja i zahtjeve u bilo kojem trenutku stoji Vam na
                       raspolaganju naše prijatno osoblje na recepciji.</p><a href="#" class="btn btn-link">Pročitaj
                       više</a>
@@ -247,11 +236,7 @@
                 <div class="col-md-6 room_bg_dark full_width_room card-height">
                   <div class="text_block">
                     <h2> <a href="room-single.html">ALAKART RESTORAN </a></h2>
-                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom"
-                        title="This room has Cafe Bar" class="icon icon-Espresso"></i><i data-toggle="tooltip"
-                        data-placement="bottom" title="This room has WiFI" class="icon icon-Signal"></i><i
-                        data-toggle="tooltip" data-placement="bottom" title="This room has Cable TV"
-                        class="icon icon-TV"></i></div>
+                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom" title="This room has Cafe Bar" class="icon icon-Espresso"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has WiFI" class="icon icon-Signal"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has Cable TV" class="icon icon-TV"></i></div>
                     <p class="text-justify">“A la kart” restoran hotela Vidović posjeduje oko 50 mjesta i u ugodnom
                       ambijentu možete uživati u specijalitetima domaće i internacionalne kuhinje. Vrhunski majstori
                       kulinarstva, uvešće Vas u svijet gastronomije koji do sada niste poznavali, a Vaša nepca biće
@@ -259,8 +244,7 @@
                   </div>
                 </div>
                 <div class="col-md-6 small_screen_margin_top">
-                  <div class="row"><a href="room-single.html"><img src="assets/images/Restoran.png"
-                        alt="Room Image"></a></div>
+                  <div class="row"><a href="room-single.html"><img src="assets/images/Restoran.png" alt="Room Image"></a></div>
                 </div>
               </div>
             </div>
@@ -269,21 +253,14 @@
                 <div class="col-md-6 room_bg_dark full_width_room card-height">
                   <div class="text_block">
                     <h2> <a href="room-single.html">Express restoran</a><small><a href="#">Radno
-                          vreme</a></small><small><a href="#">Ponedeljak - Petak - 00:00 - 24:00</a></small><small><a
-                          href="#">Subota - Nedelja - Neradno</a></small></h2>
-                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom"
-                        title="This room has Cafe Bar" class="icon icon-Espresso"></i><i data-toggle="tooltip"
-                        data-placement="bottom" title="This room has Cable TV" class="icon icon-TV"></i><i
-                        data-toggle="tooltip" data-placement="bottom" title="This room has WiFI"
-                        class="icon icon-Signal"></i></div>
+                          vreme</a></small><small><a href="#">Ponedeljak - Petak - 00:00 - 24:00</a></small><small><a href="#">Subota - Nedelja - Neradno</a></small></h2>
+                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom" title="This room has Cafe Bar" class="icon icon-Espresso"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has Cable TV" class="icon icon-TV"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has WiFI" class="icon icon-Signal"></i></div>
                     <p class="text-justify">Specijalitete domaće kuhinje možete da isprobate u našem express restoranu u
-                      ugodnom ambijentu restorana po najboljim cijenama u gradu.</p><a href="#"
-                      class="btn btn-link">Pročitaj više</a>
+                      ugodnom ambijentu restorana po najboljim cijenama u gradu.</p><a href="#" class="btn btn-link">Pročitaj više</a>
                   </div>
                 </div>
                 <div class="col-md-6 small_screen_margin_top">
-                  <div class="row"><a href="room-single.html"><img src="assets/images/Express-restoran.png"
-                        alt="Room Image"></a></div>
+                  <div class="row"><a href="room-single.html"><img src="assets/images/Express-restoran.png" alt="Room Image"></a></div>
                 </div>
               </div>
             </div>
@@ -292,19 +269,14 @@
                 <div class="col-md-6 room_bg_dark full_width_room card-height">
                   <div class="text_block">
                     <h2> <a href="room-single.html">KONFERENCIJSKE SALE </a></h2>
-                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom"
-                        title="This room has WiFI" class="icon icon-Signal"></i><i data-toggle="tooltip"
-                        data-placement="bottom" title="This room has Cable TV" class="icon icon-TV"></i><i
-                        data-toggle="tooltip" data-placement="bottom" title="This room has Cafe Bar"
-                        class="icon icon-Espresso"></i></div>
+                    <div class="rooms_margin_custom_1"><i data-toggle="tooltip" data-placement="bottom" title="This room has WiFI" class="icon icon-Signal"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has Cable TV" class="icon icon-TV"></i><i data-toggle="tooltip" data-placement="bottom" title="This room has Cafe Bar" class="icon icon-Espresso"></i></div>
                     <p class="text-justify">Hotel raspolaže sa tri konferencijske sale koje će ispuniti sve važe
                       potrebe. Velika sala je sala koja može ugostiti 100+ osoba, srednja koja je odlična za 30 osoba i
                       mala sala koja može ugostiti do 10 osoba</p><a href="#" class="btn btn-link">Pročitaj više</a>
                   </div>
                 </div>
                 <div class="col-md-6 small_screen_margin_top">
-                  <div class="row"><a href="room-single.html"><img src="assets/images/Velika-koncerencijska-sala.png"
-                        alt="Image"></a></div>
+                  <div class="row"><a href="room-single.html"><img src="assets/images/Velika-koncerencijska-sala.png" alt="Image"></a></div>
                 </div>
               </div>
             </div>
@@ -416,12 +388,10 @@
   <script type="text/javascript" src="./assets/js/libs/jquery-2.1.4.js"></script>
   <script type="text/javascript" src="./assets/js/libs/bootstrap.js"></script>
   <script type="text/javascript" src="./assets/js/libs/wow.js" data-module="wow-animation-lib"></script>
-  <script type="text/javascript" src="./assets/js/libs/conformity/dist/conformity.js"
-    data-module="equal-column-height"></script>
+  <script type="text/javascript" src="./assets/js/libs/conformity/dist/conformity.js" data-module="equal-column-height"></script>
   <!-- END====================== SCRIPTS ========================-->
   <!-- =================== SCRIPTS | SECTIONS ===================-->
-  <script type="text/javascript" src="./assets/js/libs/owl.carousel.2.0.0-beta.2.4/owl.carousel.js"
-    data-module="owlslider"></script>
+  <script type="text/javascript" src="./assets/js/libs/owl.carousel.2.0.0-beta.2.4/owl.carousel.js" data-module="owlslider"></script>
   <script type="text/javascript" src="./assets/js/owlslider-init.js" data-module="owlslider"></script>
   <!-- END================ SCRIPTS | SECTIONS ===================-->
   <script type="text/javascript" src="./assets/js/libs/moment.js"></script>

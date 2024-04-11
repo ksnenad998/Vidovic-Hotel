@@ -9550,9 +9550,13 @@ p {
 }
 
 @media screen and (min-width: 1025px) {
-  /* Your CSS styles for resolutions above 1024px here */
-  .hidden-button {
-    display: none;
-  }
-  /* Add more styles as needed */
+    /* Your CSS styles for resolutions above 1024px here */
+    .hidden-button {
+        display: none;
+    }
+    /* Add more styles as needed */
+}
+
+.img-brightness {
+    filter: brightness(1.2);
 }
