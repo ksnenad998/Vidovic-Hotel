@@ -1669,6 +1669,7 @@ h6,
 h1,
 .h1 {
     font-size: 41px;
+    padding-top: 40px;
 }
 h2,
 .h2 {
@@ -2531,7 +2532,7 @@ THE SECONDARY NAV WIDGETIZED AREA
 .caption h1,
 .caption span {
     color: #fff !important;
-    padding-top: 20px;
+    padding-top: 4f0px;
 }
 .caption .inner {
     padding: 15px;
@@ -2668,6 +2669,7 @@ THE SECONDARY NAV WIDGETIZED AREA
     letter-spacing: 7px;
     font-weight: 300;
     margin: 14px 0 7px 0;
+    padding-top: 20px;
 }
 .caption.caption_elegant .inner p.lead {
     font-size: 18px;
@@ -9559,4 +9561,12 @@ p {
 
 .img-brightness {
     filter: brightness(1.2);
+}
+
+.najmanja-visina {
+    min-height: 410px;
+}
+
+.donji-padding {
+    padding-bottom: 20px !important;
 }
