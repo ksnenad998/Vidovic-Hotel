@@ -9567,6 +9567,22 @@ p {
     min-height: 410px;
 }
 
+.visina-slike {
+    min-height: 410px;
+}
+
 .donji-padding {
     padding-bottom: 20px !important;
+}
+
+@media screen and (max-width: 720px) {
+    .najmanja-visina {
+        max-width: 350px;
+        max-height: 500px;
+        min-height: 100px;
+    }
+    .visina-slike {
+        max-height: 200px !important;
+        min-height: 100px;
+    }
 }
