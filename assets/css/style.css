@@ -9568,7 +9568,7 @@ p {
 }
 
 .visina-slike {
-    min-height: 410px;
+    min-height: 430px;
 }
 
 .donji-padding {
@@ -9577,12 +9577,13 @@ p {
 
 @media screen and (max-width: 720px) {
     .najmanja-visina {
-        max-width: 380px;
+        min-width: 390px;
+        max-width: 390px;
         max-height: 500px;
-        min-height: 100px;
     }
     .visina-slike {
         max-height: 230px !important;
         min-height: 100px;
+        max-width: 380px;
     }
 }
