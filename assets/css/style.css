@@ -9564,7 +9564,7 @@ p {
 }
 
 .najmanja-visina {
-    min-height: 410px;
+    min-height: 430px;
 }
 
 .visina-slike {
@@ -9577,12 +9577,12 @@ p {
 
 @media screen and (max-width: 720px) {
     .najmanja-visina {
-        max-width: 350px;
+        max-width: 380px;
         max-height: 500px;
         min-height: 100px;
     }
     .visina-slike {
-        max-height: 200px !important;
+        max-height: 230px !important;
         min-height: 100px;
     }
 }
