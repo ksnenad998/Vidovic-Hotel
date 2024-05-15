@@ -11,6 +11,13 @@
         />
         <meta name="HandheldFriendly" content="true" />
         <meta name="apple-touch-fullscreen" content="yes" />
+
+        <!-- PHOBS -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="./assets/css/phobs.css" rel="stylesheet" type="text/css" />
+        <script src="phobs.js"></script>
+        <!-- PHOBS END -->
+
         <!-- FAVICON-->
         <link
             rel="apple-touch-icon"
@@ -239,62 +246,176 @@
                 <div class="container">
                     <section class="no_padding dark_section booking-form">
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
-                                <form class="booking_form">
-                                    <div
-                                        class="col-md-10 col-md-offset-1 text-center"
-                                    >
-                                        <div
-                                            class="col-md-6 small_screen_margin_top"
+                            <div class="col-md-12 col-md-offset-0">
+                                <form
+                                    action="https://secure.phobs.net/book.php"
+                                    method="get"
+                                    id="phobs_book"
+                                    name="phobs_book"
+                                >
+                                    <p class="booking_naslov">
+                                        Online rezervacije
+                                    </p>
+
+                                    <p>
+                                        <input
+                                            name="hotel"
+                                            type="hidden"
+                                            value="900662e1682342871b1ab08d8e8756a2"
+                                            style="display: none"
+                                        />
+                                    </p>
+
+                                    <p>
+                                        <label for="check_in_day"
+                                            >Dolazak</label
                                         >
-                                            <div class="form-group">
-                                                <label>Datum prijave</label
-                                                ><i class="arrow-down"></i>
-                                                <input
-                                                    type="text"
-                                                    placeholder="Datum dolaska"
-                                                    id="date_check_in"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="col-md-6 small_screen_margin_top"
+                                        <select name="check_in_day" size="1">
+                                            <option value="1">01</option>
+                                            <option value="2">02</option>
+                                            <option value="3">03</option>
+                                            <option value="4">04</option>
+                                            <option value="5">05</option>
+                                            <option value="6">06</option>
+                                            <option value="7">07</option>
+                                            <option value="8">08</option>
+                                            <option value="9">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                        <select name="check_in_month" size="1">
+                                            <option value="1">01</option>
+                                            <option value="2">02</option>
+                                            <option value="3">03</option>
+                                            <option value="4">04</option>
+                                            <option value="5">05</option>
+                                            <option value="6">06</option>
+                                            <option value="7">07</option>
+                                            <option value="8">08</option>
+                                            <option value="9">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                        <select name="check_in_year" size="1">
+                                            <option value="2024">2024</option>
+                                            <option value="2025">2025</option>
+                                        </select>
+                                    </p>
+                                    <p>
+                                        <label for="nights">Broj noćenja</label>
+                                        Broj noćenja <br />
+                                        <select name="nights" size="1">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                            <option value="13">13</option>
+                                            <option value="14">14</option>
+                                            <option value="15">15</option>
+                                            <option value="16">16</option>
+                                            <option value="17">17</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21">21</option>
+                                            <option value="22">22</option>
+                                            <option value="23">23</option>
+                                            <option value="24">24</option>
+                                            <option value="25">25</option>
+                                            <option value="26">26</option>
+                                            <option value="27">27</option>
+                                            <option value="28">28</option>
+                                            <option value="29">29</option>
+                                            <option value="30">30</option>
+                                            <option value="31">31</option>
+                                        </select>
+                                        <input
+                                            name="book"
+                                            type="submit"
+                                            value="Provjeri"
+                                            class="button"
+                                        />
+                                    </p>
+                                    <p>
+                                        <input
+                                            name="company_id"
+                                            type="hidden"
+                                            value="ee2d5d8f0c2cf731f0249d7c1714bc6f"
+                                            style="display: none"
+                                        />
+                                        <input
+                                            name="view_cancel"
+                                            type="hidden"
+                                            value=""
+                                            style="display: none"
+                                        />
+                                        <input
+                                            name="lang"
+                                            type="hidden"
+                                            value="ba"
+                                            style="display: none"
+                                        />
+                                    </p>
+                                    <p>
+                                        <input
+                                            name="currency"
+                                            type="hidden"
+                                            style="display: none"
+                                            value="EUR"
+                                        />
+                                    </p>
+                                    <p>
+                                        <label for="partners_access"
+                                            >Promotivni kod</label
+                                        ><input
+                                            name="partners_access"
+                                            type="text"
+                                            size="20"
+                                            maxlength="20"
+                                            value=""
+                                            class="access_code"
+                                        />
+                                    </p>
+
+                                    <p>
+                                        <a
+                                            href="https://secure.phobs.net/book.php?company_id=ee2d5d8f0c2cf731f0249d7c1714bc6f&amp;lang=ba&amp;view_cancel=1"
+                                            class="view_cancel"
+                                            target="_blank"
+                                            onClick="return viewCancelBooking(this)"
+                                            >Promijeni / otkaži rezervaciju
+                                            &raquo;</a
                                         >
-                                            <div class="form-group">
-                                                <label>Datum odjave</label
-                                                ><i class="arrow-down"></i>
-                                                <input
-                                                    type="text"
-                                                    placeholder="Datum odlaska"
-                                                    id="date_check_out"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="col-md-12 small_screen_margin_top"
-                                        >
-                                            <label>Gosti</label>
-                                            <select>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                                <option>6</option>
-                                                <option>7</option>
-                                                <option>8</option>
-                                                <option>9</option>
-                                                <option>10</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="col-md-12 small_screen_margin_top text-center"
-                                    >
-                                        <button type="submit">
-                                            Rezervišite
-                                        </button>
-                                    </div>
+                                    </p>
                                 </form>
                             </div>
                         </div>
@@ -970,4 +1091,11 @@
         ></script>
         <!-- END==================== SCRIPTS | INIT ===================-->
     </body>
+
+    <script language="javascript" type="text/javascript">
+        /*
+         * PHOBS - form setup
+         */
+        phobsSetupForm();
+    </script>
 </html>
